@@ -1,0 +1,76 @@
+@prefix bacnet: <http://data.ashrae.org/bacnet/2020#> .
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix : <https://building.com#> .
+@prefix meta: <https://meta.com#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ref: <https://brickschema.org/schema/Brick/ref#> .
+@prefix rnd: <http://switch.com/rnd#> .
+@prefix switch: <https://switchautomation.com/schemas/BrickExtension#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:target a brick:AHU ;
+    brick:hasPoint :pnt_1, :pnt_2 ;
+    brick:feeds :floor_damper_1, :vav_direct .
+
+:pnt_1 a brick:Discharge_Air_Static_Pressure_Sensor ;
+    brick:isPointOf :target .
+
+:pnt_2 a brick:Discharge_Air_Static_Pressure_Setpoint ;
+    brick:isPointOf :target .
+
+:floor_damper_1 a brick:Damper ;
+    brick:isFedBy :target ;
+    brick:feeds :vav_1, :vav_2, :vav_3 .
+
+:vav_1 a brick:VAV ;
+    brick:isFedBy :floor_damper_1 ;
+    brick:hasPart :vav_1_damper ;
+    rnd:isRootParentOf :vav_1_damper .
+
+:vav_1_damper a switch:Discharge_Damper ;
+    brick:hasPoint :vav_1_pnt_1 ;
+    brick:isPartOf :vav_1 ;
+    rnd:hasRootParent :vav_1 .
+
+:vav_1_pnt_1 a brick:Position_Sensor ;
+    brick:isPointOf :vav_1_damper .
+
+:vav_2 a brick:VAV ;
+    brick:isFedBy :floor_damper_2 ;
+    brick:hasPart :vav_2_damper ;
+    rnd:isRootParentOf :vav_2_damper .
+
+:vav_2_damper a switch:Discharge_Damper ;
+    brick:hasPoint :vav_2_pnt_1 ;
+    brick:isPartOf :vav_2 ;
+    rnd:hasRootParent :vav_2 .
+
+:vav_2_pnt_1 a brick:Position_Sensor ;
+    brick:isPointOf :vav_2_damper .
+
+:vav_3 a brick:VAV ;
+    brick:isFedBy :floor_damper_3 ;
+    brick:hasPart :vav_3_damper ;
+    rnd:isRootParentOf :vav_3_damper .
+
+:vav_3_damper a switch:Discharge_Damper ;
+    brick:hasPoint :vav_3_pnt_1 ;
+    brick:isPartOf :vav_3 ;
+    rnd:hasRootParent :vav_3 .
+
+:vav_3_pnt_1 a brick:Position_Sensor ;
+    brick:isPointOf :vav_3_damper .
+
+:vav_direct a brick:VAV ;
+    brick:isFedBy :target ;
+    brick:hasPart :vav_direct_damper ;
+    rnd:isRootParentOf :vav_direct_damper .
+
+:vav_direct_damper a switch:Discharge_Damper ;
+    brick:hasPoint :vav_direct_pnt_1 ;
+    brick:isPartOf :vav_direct ;
+    rnd:hasRootParent :vav_direct .
+
+:vav_direct_pnt_1 a brick:Position_Sensor ;
+    brick:isPointOf :vav_direct_damper .

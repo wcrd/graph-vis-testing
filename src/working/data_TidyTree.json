@@ -1,0 +1,120 @@
+{
+    "name": "target",
+    "type": "entity",
+    "children": [
+        {
+            "uri": "https://building.com#floor_damper_1",
+            "name": "floor_damper_1",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#vav_1",
+                    "name": "vav_1",
+                    "type": "entity",
+                    "rel": "feeds",
+                    "children": [
+                        {
+                            "uri": "https://building.com#vav_1_damper",
+                            "name": "vav_1_damper",
+                            "type": "entity",
+                            "rel": "hasPart",
+                            "children": [
+                                {
+                                    "uri": "https://building.com#vav_1_pnt_1",
+                                    "name": "vav_1_pnt_1",
+                                    "type": "point",
+                                    "rel": "hasPoint",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "uri": "https://building.com#vav_2",
+                    "name": "vav_2",
+                    "type": "entity",
+                    "rel": "feeds",
+                    "children": [
+                        {
+                            "uri": "https://building.com#vav_2_damper",
+                            "name": "vav_2_damper",
+                            "type": "entity",
+                            "rel": "hasPart",
+                            "children": [
+                                {
+                                    "uri": "https://building.com#vav_2_pnt_1",
+                                    "name": "vav_2_pnt_1",
+                                    "type": "point",
+                                    "rel": "hasPoint",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "uri": "https://building.com#vav_3",
+                    "name": "vav_3",
+                    "type": "entity",
+                    "rel": "feeds",
+                    "children": [
+                        {
+                            "uri": "https://building.com#vav_3_damper",
+                            "name": "vav_3_damper",
+                            "type": "entity",
+                            "rel": "hasPart",
+                            "children": [
+                                {
+                                    "uri": "https://building.com#vav_3_pnt_1",
+                                    "name": "vav_3_pnt_1",
+                                    "type": "point",
+                                    "rel": "hasPoint",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#vav_direct",
+            "name": "vav_direct",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#vav_direct_damper",
+                    "name": "vav_direct_damper",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#vav_direct_pnt_1",
+                            "name": "vav_direct_pnt_1",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#pnt_1",
+            "name": "pnt_1",
+            "type": "point",
+            "rel": "hasPoint",
+            "children": []
+        },
+        {
+            "uri": "https://building.com#pnt_2",
+            "name": "pnt_2",
+            "type": "point",
+            "rel": "hasPoint",
+            "children": []
+        }
+    ]
+}
