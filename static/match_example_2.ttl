@@ -1,0 +1,903 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix building: <https://building.com#> .
+
+<https://building.com#pnt_Aechiex7> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Veib8lah> .
+
+<https://building.com#pnt_Aehee5ae> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_EoL6chie> .
+
+<https://building.com#pnt_Aeph6wa3> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_shahSh0K> .
+
+<https://building.com#pnt_Ahbi0Aib> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Nea2faye> .
+
+<https://building.com#pnt_Ahbua0Ve> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Chei0phu> .
+
+<https://building.com#pnt_Ahcie5sh> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Ig4Vaev6> .
+
+<https://building.com#pnt_Aic0mohh> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_Aech7Aip> .
+
+<https://building.com#pnt_Aiwae9ca> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_diw4Feeb> .
+
+<https://building.com#pnt_Aodux4oo> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_Ooph3nie> .
+
+<https://building.com#pnt_Bee5aecu> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_fu0Chai2> .
+
+<https://building.com#pnt_Chipue6w> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Geebien6> .
+
+<https://building.com#pnt_EH8ON1ve> a brick:Discharge_Air_Static_Pressure_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Ahn2Gue3> .
+
+<https://building.com#pnt_EbeeC4zi> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_aeH4taiv> .
+
+<https://building.com#pnt_EeYuuv2a> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_shahSh0K> .
+
+<https://building.com#pnt_Eeleeg5U> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_pi4YaWu8> .
+
+<https://building.com#pnt_Eu2cheer> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_Veib8lah> .
+
+<https://building.com#pnt_Geo5tiPh> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_pooX1kai> .
+
+<https://building.com#pnt_IbohD3je> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_Ig4Vaev6> .
+
+<https://building.com#pnt_Ip2quewa> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_eeng6Chu> .
+
+<https://building.com#pnt_It1ietau> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_zueLio5e> .
+
+<https://building.com#pnt_Nah0rise> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_asai7Eeb> .
+
+<https://building.com#pnt_Ooch5pha> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_cahThua1> .
+
+<https://building.com#pnt_Oona8lie> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_eimei1Ur> .
+
+<https://building.com#pnt_Ooph9oot> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Achu5eiG> .
+
+<https://building.com#pnt_Ooya2aib> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Kaiy1vee> .
+
+<https://building.com#pnt_Oph4jeig> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_uoyoh6Ph> .
+
+<https://building.com#pnt_Osoof8Fo> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Aexah9Ai> .
+
+<https://building.com#pnt_Phiecho3> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_ohv4Ahph> .
+
+<https://building.com#pnt_Phoof3ge> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_gah9ahNg> .
+
+<https://building.com#pnt_Pi1oosal> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_diw4Feeb> .
+
+<https://building.com#pnt_Pookei3h> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_pi4YaWu8> .
+
+<https://building.com#pnt_Quahjie5> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_aeC7joqu> .
+
+<https://building.com#pnt_Quai1ohf> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_iesh7ohN> .
+
+<https://building.com#pnt_Sah3pah2> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_Ievah6go> .
+
+<https://building.com#pnt_Su1pefai> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_aiF0Shie> .
+
+<https://building.com#pnt_Ui3coo7i> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_pooX1kai> .
+
+<https://building.com#pnt_Vahsah8e> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_feiN3Pha> .
+
+<https://building.com#pnt_VaiPhaM8> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Ooph3nie> .
+
+<https://building.com#pnt_Wei0Ahgh> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_ahqu1Eda> .
+
+<https://building.com#pnt_Wuifoh1a> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_Feo8shoo> .
+
+<https://building.com#pnt_Wul2iBai> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_ea7AhNee> .
+
+<https://building.com#pnt_aebiHoo1> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_tiS4zie8> .
+
+<https://building.com#pnt_ahJee6ei> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_Ohleepe6> .
+
+<https://building.com#pnt_ahfah9IS> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Oe2rieng> .
+
+<https://building.com#pnt_aiJei1oh> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_gah9ahNg> .
+
+<https://building.com#pnt_aiT6aicu> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_zoosuw0I> .
+
+<https://building.com#pnt_aim9Jei4> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_aipha3Gu> .
+
+<https://building.com#pnt_airu9ohW> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_asai7Eeb> .
+
+<https://building.com#pnt_ba5PaeF9> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Ievah6go> .
+
+<https://building.com#pnt_beXahg9a> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_Dook5rag> .
+
+<https://building.com#pnt_biTh4cee> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_aePu0eha> .
+
+<https://building.com#pnt_chaey2Xu> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_ea7AhNee> .
+
+<https://building.com#pnt_chie3Mao> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_Bii0Su9i> .
+
+<https://building.com#pnt_de8VaaNu> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_Oe2rieng> .
+
+<https://building.com#pnt_eS8aew1a> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_aeC7joqu> .
+
+<https://building.com#pnt_eebai1Ma> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_aiY3xohb> .
+
+<https://building.com#pnt_eeju3Dei> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Ohleepe6> .
+
+<https://building.com#pnt_eep6DieD> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_fu0Chai2> .
+
+<https://building.com#pnt_eeph9Mei> a brick:Discharge_Air_Static_Pressure_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Ahn2Gue3> .
+
+<https://building.com#pnt_eequ2uiB> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Heem3oa3> .
+
+<https://building.com#pnt_eiNgaxa5> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_aiF0Shie> .
+
+<https://building.com#pnt_eiRu4fae> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_eeng6Chu> .
+
+<https://building.com#pnt_gahx3ouP> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_ohv4Ahph> .
+
+<https://building.com#pnt_gaiCeth7> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_Geebien6> .
+
+<https://building.com#pnt_gaiJoi7e> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_ku8ahl9L> .
+
+<https://building.com#pnt_ia3aCh8a> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_Gah5ahvo> .
+
+<https://building.com#pnt_iePix6th> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_eij9Mue3> .
+
+<https://building.com#pnt_ieT9quai> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_eChaep0e> .
+
+<https://building.com#pnt_ieThieJ3> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_tiS4zie8> .
+
+<https://building.com#pnt_ien4iePh> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_aipha3Gu> .
+
+<https://building.com#pnt_iiCh4coh> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Noodag9a> .
+
+<https://building.com#pnt_it5oop9F> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_aar8aeYa> .
+
+<https://building.com#pnt_jahkai7P> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_iesh7ohN> .
+
+<https://building.com#pnt_keeJ1ahd> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_eij9Mue3> .
+
+<https://building.com#pnt_leeCho7A> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Dook5rag> .
+
+<https://building.com#pnt_leeR0eiZ> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_Nea2faye> .
+
+<https://building.com#pnt_moL0Ahz3> a brick:Discharge_Air_Static_Pressure_Setpoint ;
+    brick:isPointOf <https://building.com#eqp_Ahn2Gue3> .
+
+<https://building.com#pnt_moh2teeM> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Aaz7sei8> .
+
+<https://building.com#pnt_nie8aePi> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Aaf7Aiza> .
+
+<https://building.com#pnt_oaLo5pho> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Gah5ahvo> .
+
+<https://building.com#pnt_ooWu8yie> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Aech7Aip> .
+
+<https://building.com#pnt_pefo5Iqu> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_aecai2Ii> .
+
+<https://building.com#pnt_pheiKo9k> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_aecai2Ii> .
+
+<https://building.com#pnt_phies1Sh> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_Heem3oa3> .
+
+<https://building.com#pnt_phooJ6ih> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_ceiX0Soe> .
+
+<https://building.com#pnt_raeth2Be> a brick:Discharge_Air_Static_Pressure_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Ahn2Gue3> .
+
+<https://building.com#pnt_roh9Ieza> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_ahqu1Eda> .
+
+<https://building.com#pnt_saim6OhS> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_zoosuw0I> .
+
+<https://building.com#pnt_seeB9sof> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_aiY3xohb> .
+
+<https://building.com#pnt_suegh7Oh> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_EoL6chie> .
+
+<https://building.com#pnt_uhooy5Ba> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_eimei1Ur> .
+
+<https://building.com#pnt_week1Die> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_OhDee0po> .
+
+<https://building.com#pnt_wo9Iem8x> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Feo8shoo> .
+
+<https://building.com#pnt_xieBee5I> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_zueLio5e> .
+
+<https://building.com#pnt_yieraM4E> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Ooc8Eiqu> .
+
+<https://building.com#pnt_yoh3ohXo> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_Bii0Su9i> .
+
+<https://building.com#pnt_za4lie2O> a brick:Position_Command ;
+    brick:isPointOf <https://building.com#eqp_uoyoh6Ph> .
+
+<https://building.com#pnt_ze6Ahjae> a brick:Position_Sensor ;
+    brick:isPointOf <https://building.com#eqp_eidaeP0n> .
+
+<https://building.com#eqp_Aaf7Aiza> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_nie8aePi> ;
+    brick:isPartOf <https://building.com#eqp_Ceedie1N> .
+
+<https://building.com#eqp_Aaz7sei8> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_moh2teeM> ;
+    brick:isPartOf <https://building.com#eqp_uL4iengu> .
+
+<https://building.com#eqp_Achu5eiG> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Ooph9oot> ;
+    brick:isPartOf <https://building.com#eqp_ooPheed7> .
+
+<https://building.com#eqp_AeGah5ei> a brick:VAV ;
+    rdfs:label "VAV.L03.01-05"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_shahSh0K> .
+
+<https://building.com#eqp_Aexah9Ai> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Osoof8Fo> ;
+    brick:isPartOf <https://building.com#eqp_eekohn8M> .
+
+<https://building.com#eqp_Aighuur1> a brick:VAV ;
+    rdfs:label "VAV.L02.01-18"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_iesh7ohN> .
+
+<https://building.com#eqp_Aipu7pho> a brick:VAV ;
+    rdfs:label "VAV.L02.01-13"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_uoyoh6Ph> .
+
+<https://building.com#eqp_Av2aeT1k> a brick:VAV ;
+    rdfs:label "VAV.L04.01-11"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_ku8ahl9L> .
+
+<https://building.com#eqp_Cae9thup> a brick:VAV ;
+    rdfs:label "VAV.L02.01-01"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_pi4YaWu8> .
+
+<https://building.com#eqp_Ceedie1N> a brick:VAV ;
+    rdfs:label "VAV.L04.01-06"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Aaf7Aiza> .
+
+<https://building.com#eqp_Chei0phu> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Ahbua0Ve> ;
+    brick:isPartOf <https://building.com#eqp_aid9Quan> .
+
+<https://building.com#eqp_Fe4IeNei> a brick:VAV ;
+    rdfs:label "VAV.L02.01-19"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_aecai2Ii> .
+
+<https://building.com#eqp_Foo5Chu7> a brick:VAV ;
+    rdfs:label "VAV.L03.01-11"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Nea2faye> .
+
+<https://building.com#eqp_Hah7quae> a brick:VAV ;
+    rdfs:label "VAV.L03.01-19"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_aipha3Gu> .
+
+<https://building.com#eqp_Ju8rae6z> a brick:VAV ;
+    rdfs:label "VAV.L02.01-11"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Ievah6go> .
+
+<https://building.com#eqp_Kaiy1vee> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Ooya2aib> ;
+    brick:isPartOf <https://building.com#eqp_yo5OW6xe> .
+
+<https://building.com#eqp_Mieri5si> a brick:VAV ;
+    rdfs:label "VAV.L03.01-01"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_tiS4zie8> .
+
+<https://building.com#eqp_Noodag9a> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_iiCh4coh> ;
+    brick:isPartOf <https://building.com#eqp_VooChat4> .
+
+<https://building.com#eqp_OhDee0po> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_week1Die> ;
+    brick:isPartOf <https://building.com#eqp_Phia0ohc> .
+
+<https://building.com#eqp_Ohj9Na3t> a brick:VAV ;
+    rdfs:label "VAV.L02.01-05"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_zueLio5e> .
+
+<https://building.com#eqp_Ooc8Eiqu> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_yieraM4E> ;
+    brick:isPartOf <https://building.com#eqp_phahqu2E> .
+
+<https://building.com#eqp_Oophael6> a brick:VAV ;
+    rdfs:label "VAV.L03.01-16"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Aech7Aip> .
+
+<https://building.com#eqp_Oosh9shu> a brick:VAV ;
+    rdfs:label "VAV.L03.01-02"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Ooph3nie> .
+
+<https://building.com#eqp_Phahp8qu> a brick:VAV ;
+    rdfs:label "VAV.L03.01-15"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Bii0Su9i> .
+
+<https://building.com#eqp_Phia0ohc> a brick:VAV ;
+    rdfs:label "VAV.L04.01-09"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_OhDee0po> .
+
+<https://building.com#eqp_Phu3ohN5> a brick:VAV ;
+    rdfs:label "VAV.L02.01-20"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_aiY3xohb> .
+
+<https://building.com#eqp_Quela7ae> a brick:VAV ;
+    rdfs:label "VAV.L02.01-04"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Ig4Vaev6> .
+
+<https://building.com#eqp_RahGh1ni> a brick:VAV ;
+    rdfs:label "VAV.L04.01-12"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_eidaeP0n> .
+
+<https://building.com#eqp_Ruhaez2f> a brick:VAV ;
+    rdfs:label "VAV.L04.01-07"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_cahThua1> .
+
+<https://building.com#eqp_TooyahV7> a brick:VAV ;
+    rdfs:label "VAV.L03.01-14"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_eimei1Ur> .
+
+<https://building.com#eqp_Umeh0Sha> a brick:VAV ;
+    rdfs:label "VAV.L03.01-09"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_eeng6Chu> .
+
+<https://building.com#eqp_Vaenai3i> a brick:VAV ;
+    rdfs:label "VAV.L03.01-07"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_aeC7joqu> .
+
+<https://building.com#eqp_Vah4dooX> a brick:VAV ;
+    rdfs:label "VAV.L02.01-08"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Ohleepe6> .
+
+<https://building.com#eqp_VooChat4> a brick:VAV ;
+    rdfs:label "VAV.L04.01-14"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Noodag9a> .
+
+<https://building.com#eqp_WeiN5ahK> a brick:VAV ;
+    rdfs:label "VAV.L03.01-08"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Geebien6> .
+
+<https://building.com#eqp_Zoosai3u> a brick:VAV ;
+    rdfs:label "VAV.L02.01-02"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_pooX1kai> .
+
+<https://building.com#eqp_aar8aeYa> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_it5oop9F> ;
+    brick:isPartOf <https://building.com#eqp_ui2ooPha> .
+
+<https://building.com#eqp_aeH4taiv> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_EbeeC4zi> ;
+    brick:isPartOf <https://building.com#eqp_ohZaed5o> .
+
+<https://building.com#eqp_aePu0eha> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_biTh4cee> ;
+    brick:isPartOf <https://building.com#eqp_ohdeib0L> .
+
+<https://building.com#eqp_aeTh6Ier> a brick:VAV ;
+    rdfs:label "VAV.L02.01-09"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Veib8lah> .
+
+<https://building.com#eqp_aey9bi0U> a brick:VAV ;
+    rdfs:label "VAV.L02.01-16"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_ohv4Ahph> .
+
+<https://building.com#eqp_ahfu8Iju> a brick:VAV ;
+    rdfs:label "VAV.L02.01-17"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Oe2rieng> .
+
+<https://building.com#eqp_aid9Quan> a brick:VAV ;
+    rdfs:label "VAV.L04.01-15"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Chei0phu> .
+
+<https://building.com#eqp_air3Omei> a brick:VAV ;
+    rdfs:label "VAV.L03.01-03"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_gah9ahNg> .
+
+<https://building.com#eqp_an0foh6O> a brick:VAV ;
+    rdfs:label "VAV.L02.01-12"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_ea7AhNee> .
+
+<https://building.com#eqp_baa1zuPe> a brick:VAV ;
+    rdfs:label "VAV.L03.01-12"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_asai7Eeb> .
+
+<https://building.com#eqp_cahThua1> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Ooch5pha> ;
+    brick:isPartOf <https://building.com#eqp_Ruhaez2f> .
+
+<https://building.com#eqp_ceiX0Soe> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_phooJ6ih> ;
+    brick:isPartOf <https://building.com#eqp_tuTh6ach> .
+
+<https://building.com#eqp_eChaep0e> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_ieT9quai> ;
+    brick:isPartOf <https://building.com#eqp_thi7Aew4> .
+
+<https://building.com#eqp_eeTh6eir> a brick:VAV ;
+    rdfs:label "VAV.L03.01-04"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Gah5ahvo> .
+
+<https://building.com#eqp_eecohk3O> a brick:VAV ;
+    rdfs:label "VAV.L02.01-14"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_zoosuw0I> .
+
+<https://building.com#eqp_eekohn8M> a brick:VAV ;
+    rdfs:label "VAV.L04.01-08"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Aexah9Ai> .
+
+<https://building.com#eqp_eiMoFae6> a brick:VAV ;
+    rdfs:label "VAV.L02.01-10"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_EoL6chie> .
+
+<https://building.com#eqp_eidaeP0n> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_ze6Ahjae> ;
+    brick:isPartOf <https://building.com#eqp_RahGh1ni> .
+
+<https://building.com#eqp_feiN3Pha> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Vahsah8e> ;
+    brick:isPartOf <https://building.com#eqp_kei2ahFu> .
+
+<https://building.com#eqp_geu4xaB6> a brick:VAV ;
+    rdfs:label "VAV.L02.01-06"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Heem3oa3> .
+
+<https://building.com#eqp_ieBaegh0> a brick:VAV ;
+    rdfs:label "VAV.L03.01-18"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_fu0Chai2> .
+
+<https://building.com#eqp_iesie2Oo> a brick:VAV ;
+    rdfs:label "VAV.L03.01-06"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Feo8shoo> .
+
+<https://building.com#eqp_kei2ahFu> a brick:VAV ;
+    rdfs:label "VAV.L04.01-13"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_feiN3Pha> .
+
+<https://building.com#eqp_ku8ahl9L> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_gaiJoi7e> ;
+    brick:isPartOf <https://building.com#eqp_Av2aeT1k> .
+
+<https://building.com#eqp_leiPh1Ie> a brick:VAV ;
+    rdfs:label "VAV.L03.01-17"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_aiF0Shie> .
+
+<https://building.com#eqp_ohZaed5o> a brick:VAV ;
+    rdfs:label "VAV.L04.01-05"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_aeH4taiv> .
+
+<https://building.com#eqp_ohdeib0L> a brick:VAV ;
+    rdfs:label "VAV.L04.01-04"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_aePu0eha> .
+
+<https://building.com#eqp_ooPheed7> a brick:VAV ;
+    rdfs:label "VAV.L04.01-02"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Achu5eiG> .
+
+<https://building.com#eqp_phahqu2E> a brick:VAV ;
+    rdfs:label "VAV.L04.01-18"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Ooc8Eiqu> .
+
+<https://building.com#eqp_rahfooB1> a brick:VAV ;
+    rdfs:label "VAV.L02.01-07"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_eij9Mue3> .
+
+<https://building.com#eqp_thi7Aew4> a brick:VAV ;
+    rdfs:label "VAV.L04.01-03"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_eChaep0e> .
+
+<https://building.com#eqp_thipahY8> a brick:VAV ;
+    rdfs:label "VAV.L02.01-15"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_diw4Feeb> .
+
+<https://building.com#eqp_tuTh6ach> a brick:VAV ;
+    rdfs:label "VAV.L04.01-10"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_ceiX0Soe> .
+
+<https://building.com#eqp_uL4iengu> a brick:VAV ;
+    rdfs:label "VAV.L04.01-16"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Aaz7sei8> .
+
+<https://building.com#eqp_ui2ooPha> a brick:VAV ;
+    rdfs:label "VAV.L04.01-17"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_aar8aeYa> .
+
+<https://building.com#eqp_xitho7Ne> a brick:VAV ;
+    rdfs:label "VAV.L03.01-10"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_ahqu1Eda> .
+
+<https://building.com#eqp_yo5OW6xe> a brick:VAV ;
+    rdfs:label "VAV.L04.01-01"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Kaiy1vee> .
+
+<https://building.com#eqp_zahpee0E> a brick:VAV ;
+    rdfs:label "VAV.L03.01-13"^^xsd:string ;
+    brick:hasPart <https://building.com#eqp_Dook5rag> .
+
+<https://building.com#eqp_Aech7Aip> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Aic0mohh>,
+        <https://building.com#pnt_ooWu8yie> ;
+    brick:isPartOf <https://building.com#eqp_Oophael6> .
+
+<https://building.com#eqp_Bii0Su9i> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_chie3Mao>,
+        <https://building.com#pnt_yoh3ohXo> ;
+    brick:isPartOf <https://building.com#eqp_Phahp8qu> .
+
+<https://building.com#eqp_Dook5rag> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_beXahg9a>,
+        <https://building.com#pnt_leeCho7A> ;
+    brick:isPartOf <https://building.com#eqp_zahpee0E> .
+
+<https://building.com#eqp_EoL6chie> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Aehee5ae>,
+        <https://building.com#pnt_suegh7Oh> ;
+    brick:isPartOf <https://building.com#eqp_eiMoFae6> .
+
+<https://building.com#eqp_Feo8shoo> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Wuifoh1a>,
+        <https://building.com#pnt_wo9Iem8x> ;
+    brick:isPartOf <https://building.com#eqp_iesie2Oo> .
+
+<https://building.com#eqp_Gah5ahvo> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_ia3aCh8a>,
+        <https://building.com#pnt_oaLo5pho> ;
+    brick:isPartOf <https://building.com#eqp_eeTh6eir> .
+
+<https://building.com#eqp_Geebien6> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Chipue6w>,
+        <https://building.com#pnt_gaiCeth7> ;
+    brick:isPartOf <https://building.com#eqp_WeiN5ahK> .
+
+<https://building.com#eqp_Heem3oa3> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_eequ2uiB>,
+        <https://building.com#pnt_phies1Sh> ;
+    brick:isPartOf <https://building.com#eqp_geu4xaB6> .
+
+<https://building.com#eqp_Ievah6go> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Sah3pah2>,
+        <https://building.com#pnt_ba5PaeF9> ;
+    brick:isPartOf <https://building.com#eqp_Ju8rae6z> .
+
+<https://building.com#eqp_Ig4Vaev6> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Ahcie5sh>,
+        <https://building.com#pnt_IbohD3je> ;
+    brick:isPartOf <https://building.com#eqp_Quela7ae> .
+
+<https://building.com#eqp_Nea2faye> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Ahbi0Aib>,
+        <https://building.com#pnt_leeR0eiZ> ;
+    brick:isPartOf <https://building.com#eqp_Foo5Chu7> .
+
+<https://building.com#eqp_Oe2rieng> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_ahfah9IS>,
+        <https://building.com#pnt_de8VaaNu> ;
+    brick:isPartOf <https://building.com#eqp_ahfu8Iju> .
+
+<https://building.com#eqp_Ohleepe6> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_ahJee6ei>,
+        <https://building.com#pnt_eeju3Dei> ;
+    brick:isPartOf <https://building.com#eqp_Vah4dooX> .
+
+<https://building.com#eqp_Ooph3nie> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Aodux4oo>,
+        <https://building.com#pnt_VaiPhaM8> ;
+    brick:isPartOf <https://building.com#eqp_Oosh9shu> .
+
+<https://building.com#eqp_Veib8lah> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Aechiex7>,
+        <https://building.com#pnt_Eu2cheer> ;
+    brick:isPartOf <https://building.com#eqp_aeTh6Ier> .
+
+<https://building.com#eqp_aeC7joqu> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Quahjie5>,
+        <https://building.com#pnt_eS8aew1a> ;
+    brick:isPartOf <https://building.com#eqp_Vaenai3i> .
+
+<https://building.com#eqp_aecai2Ii> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_pefo5Iqu>,
+        <https://building.com#pnt_pheiKo9k> ;
+    brick:isPartOf <https://building.com#eqp_Fe4IeNei> .
+
+<https://building.com#eqp_ahqu1Eda> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Wei0Ahgh>,
+        <https://building.com#pnt_roh9Ieza> ;
+    brick:isPartOf <https://building.com#eqp_xitho7Ne> .
+
+<https://building.com#eqp_aiF0Shie> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Su1pefai>,
+        <https://building.com#pnt_eiNgaxa5> ;
+    brick:isPartOf <https://building.com#eqp_leiPh1Ie> .
+
+<https://building.com#eqp_aiY3xohb> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_eebai1Ma>,
+        <https://building.com#pnt_seeB9sof> ;
+    brick:isPartOf <https://building.com#eqp_Phu3ohN5> .
+
+<https://building.com#eqp_aipha3Gu> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_aim9Jei4>,
+        <https://building.com#pnt_ien4iePh> ;
+    brick:isPartOf <https://building.com#eqp_Hah7quae> .
+
+<https://building.com#eqp_asai7Eeb> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Nah0rise>,
+        <https://building.com#pnt_airu9ohW> ;
+    brick:isPartOf <https://building.com#eqp_baa1zuPe> .
+
+<https://building.com#eqp_diw4Feeb> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Aiwae9ca>,
+        <https://building.com#pnt_Pi1oosal> ;
+    brick:isPartOf <https://building.com#eqp_thipahY8> .
+
+<https://building.com#eqp_ea7AhNee> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Wul2iBai>,
+        <https://building.com#pnt_chaey2Xu> ;
+    brick:isPartOf <https://building.com#eqp_an0foh6O> .
+
+<https://building.com#eqp_eeng6Chu> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Ip2quewa>,
+        <https://building.com#pnt_eiRu4fae> ;
+    brick:isPartOf <https://building.com#eqp_Umeh0Sha> .
+
+<https://building.com#eqp_eij9Mue3> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_iePix6th>,
+        <https://building.com#pnt_keeJ1ahd> ;
+    brick:isPartOf <https://building.com#eqp_rahfooB1> .
+
+<https://building.com#eqp_eimei1Ur> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Oona8lie>,
+        <https://building.com#pnt_uhooy5Ba> ;
+    brick:isPartOf <https://building.com#eqp_TooyahV7> .
+
+<https://building.com#eqp_fu0Chai2> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Bee5aecu>,
+        <https://building.com#pnt_eep6DieD> ;
+    brick:isPartOf <https://building.com#eqp_ieBaegh0> .
+
+<https://building.com#eqp_gah9ahNg> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Phoof3ge>,
+        <https://building.com#pnt_aiJei1oh> ;
+    brick:isPartOf <https://building.com#eqp_air3Omei> .
+
+<https://building.com#eqp_iesh7ohN> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Quai1ohf>,
+        <https://building.com#pnt_jahkai7P> ;
+    brick:isPartOf <https://building.com#eqp_Aighuur1> .
+
+<https://building.com#eqp_ohv4Ahph> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Phiecho3>,
+        <https://building.com#pnt_gahx3ouP> ;
+    brick:isPartOf <https://building.com#eqp_aey9bi0U> .
+
+<https://building.com#eqp_pi4YaWu8> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Eeleeg5U>,
+        <https://building.com#pnt_Pookei3h> ;
+    brick:isPartOf <https://building.com#eqp_Cae9thup> .
+
+<https://building.com#eqp_pooX1kai> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Geo5tiPh>,
+        <https://building.com#pnt_Ui3coo7i> ;
+    brick:isPartOf <https://building.com#eqp_Zoosai3u> .
+
+<https://building.com#eqp_shahSh0K> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Aeph6wa3>,
+        <https://building.com#pnt_EeYuuv2a> ;
+    brick:isPartOf <https://building.com#eqp_AeGah5ei> .
+
+<https://building.com#eqp_tiS4zie8> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_aebiHoo1>,
+        <https://building.com#pnt_ieThieJ3> ;
+    brick:isPartOf <https://building.com#eqp_Mieri5si> .
+
+<https://building.com#eqp_uoyoh6Ph> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_Oph4jeig>,
+        <https://building.com#pnt_za4lie2O> ;
+    brick:isPartOf <https://building.com#eqp_Aipu7pho> .
+
+<https://building.com#eqp_zoosuw0I> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_aiT6aicu>,
+        <https://building.com#pnt_saim6OhS> ;
+    brick:isPartOf <https://building.com#eqp_eecohk3O> .
+
+<https://building.com#eqp_zueLio5e> a <https://switchautomation.com/schemas/BrickExtension#Discharge_Damper> ;
+    brick:hasPoint <https://building.com#pnt_It1ietau>,
+        <https://building.com#pnt_xieBee5I> ;
+    brick:isPartOf <https://building.com#eqp_Ohj9Na3t> .
+
+<https://building.com#eqp_Ahn2Gue3> a brick:AHU ;
+    rdfs:label "VAV.L02.01-01"^^xsd:string,
+        "VAV.L02.01-02"^^xsd:string,
+        "VAV.L02.01-04"^^xsd:string,
+        "VAV.L02.01-05"^^xsd:string,
+        "VAV.L02.01-06"^^xsd:string,
+        "VAV.L02.01-07"^^xsd:string,
+        "VAV.L02.01-08"^^xsd:string,
+        "VAV.L02.01-09"^^xsd:string,
+        "VAV.L02.01-10"^^xsd:string,
+        "VAV.L02.01-11"^^xsd:string,
+        "VAV.L02.01-12"^^xsd:string,
+        "VAV.L02.01-13"^^xsd:string,
+        "VAV.L02.01-14"^^xsd:string,
+        "VAV.L02.01-15"^^xsd:string,
+        "VAV.L02.01-16"^^xsd:string,
+        "VAV.L02.01-17"^^xsd:string,
+        "VAV.L02.01-18"^^xsd:string,
+        "VAV.L02.01-19"^^xsd:string,
+        "VAV.L02.01-20"^^xsd:string,
+        "VAV.L03.01-01"^^xsd:string,
+        "VAV.L03.01-02"^^xsd:string,
+        "VAV.L03.01-03"^^xsd:string,
+        "VAV.L03.01-04"^^xsd:string,
+        "VAV.L03.01-05"^^xsd:string,
+        "VAV.L03.01-06"^^xsd:string,
+        "VAV.L03.01-07"^^xsd:string,
+        "VAV.L03.01-08"^^xsd:string,
+        "VAV.L03.01-09"^^xsd:string,
+        "VAV.L03.01-10"^^xsd:string,
+        "VAV.L03.01-11"^^xsd:string,
+        "VAV.L03.01-12"^^xsd:string,
+        "VAV.L03.01-13"^^xsd:string,
+        "VAV.L03.01-14"^^xsd:string,
+        "VAV.L03.01-15"^^xsd:string,
+        "VAV.L03.01-16"^^xsd:string,
+        "VAV.L03.01-17"^^xsd:string,
+        "VAV.L03.01-18"^^xsd:string,
+        "VAV.L03.01-19"^^xsd:string,
+        "VAV.L04.01-01"^^xsd:string,
+        "VAV.L04.01-02"^^xsd:string,
+        "VAV.L04.01-03"^^xsd:string,
+        "VAV.L04.01-04"^^xsd:string,
+        "VAV.L04.01-05"^^xsd:string,
+        "VAV.L04.01-06"^^xsd:string,
+        "VAV.L04.01-07"^^xsd:string,
+        "VAV.L04.01-08"^^xsd:string,
+        "VAV.L04.01-09"^^xsd:string,
+        "VAV.L04.01-10"^^xsd:string,
+        "VAV.L04.01-11"^^xsd:string,
+        "VAV.L04.01-12"^^xsd:string,
+        "VAV.L04.01-13"^^xsd:string,
+        "VAV.L04.01-14"^^xsd:string,
+        "VAV.L04.01-15"^^xsd:string,
+        "VAV.L04.01-16"^^xsd:string,
+        "VAV.L04.01-17"^^xsd:string,
+        "VAV.L04.01-18"^^xsd:string ;
+    brick:feeds <https://building.com#eqp_AeGah5ei>,
+        <https://building.com#eqp_Aighuur1>,
+        <https://building.com#eqp_Aipu7pho>,
+        <https://building.com#eqp_Av2aeT1k>,
+        <https://building.com#eqp_Cae9thup>,
+        <https://building.com#eqp_Ceedie1N>,
+        <https://building.com#eqp_Fe4IeNei>,
+        <https://building.com#eqp_Foo5Chu7>,
+        <https://building.com#eqp_Hah7quae>,
+        <https://building.com#eqp_Ju8rae6z>,
+        <https://building.com#eqp_Mieri5si>,
+        <https://building.com#eqp_Ohj9Na3t>,
+        <https://building.com#eqp_Oophael6>,
+        <https://building.com#eqp_Oosh9shu>,
+        <https://building.com#eqp_Phahp8qu>,
+        <https://building.com#eqp_Phia0ohc>,
+        <https://building.com#eqp_Phu3ohN5>,
+        <https://building.com#eqp_Quela7ae>,
+        <https://building.com#eqp_RahGh1ni>,
+        <https://building.com#eqp_Ruhaez2f>,
+        <https://building.com#eqp_TooyahV7>,
+        <https://building.com#eqp_Umeh0Sha>,
+        <https://building.com#eqp_Vaenai3i>,
+        <https://building.com#eqp_Vah4dooX>,
+        <https://building.com#eqp_VooChat4>,
+        <https://building.com#eqp_WeiN5ahK>,
+        <https://building.com#eqp_Zoosai3u>,
+        <https://building.com#eqp_aeTh6Ier>,
+        <https://building.com#eqp_aey9bi0U>,
+        <https://building.com#eqp_ahfu8Iju>,
+        <https://building.com#eqp_aid9Quan>,
+        <https://building.com#eqp_air3Omei>,
+        <https://building.com#eqp_an0foh6O>,
+        <https://building.com#eqp_baa1zuPe>,
+        <https://building.com#eqp_eeTh6eir>,
+        <https://building.com#eqp_eecohk3O>,
+        <https://building.com#eqp_eekohn8M>,
+        <https://building.com#eqp_eiMoFae6>,
+        <https://building.com#eqp_geu4xaB6>,
+        <https://building.com#eqp_ieBaegh0>,
+        <https://building.com#eqp_iesie2Oo>,
+        <https://building.com#eqp_kei2ahFu>,
+        <https://building.com#eqp_leiPh1Ie>,
+        <https://building.com#eqp_ohZaed5o>,
+        <https://building.com#eqp_ohdeib0L>,
+        <https://building.com#eqp_ooPheed7>,
+        <https://building.com#eqp_phahqu2E>,
+        <https://building.com#eqp_rahfooB1>,
+        <https://building.com#eqp_thi7Aew4>,
+        <https://building.com#eqp_thipahY8>,
+        <https://building.com#eqp_tuTh6ach>,
+        <https://building.com#eqp_uL4iengu>,
+        <https://building.com#eqp_ui2ooPha>,
+        <https://building.com#eqp_xitho7Ne>,
+        <https://building.com#eqp_yo5OW6xe>,
+        <https://building.com#eqp_zahpee0E> ;
+    brick:hasPoint <https://building.com#pnt_EH8ON1ve>,
+        <https://building.com#pnt_eeph9Mei>,
+        <https://building.com#pnt_moL0Ahz3>,
+        <https://building.com#pnt_raeth2Be> .
+

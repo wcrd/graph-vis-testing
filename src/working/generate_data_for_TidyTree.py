@@ -1,7 +1,7 @@
 import rdflib
 import json
 
-g = rdflib.Graph().parse('./static/match_example.ttl', format='turtle')
+g = rdflib.Graph().parse('./static/match_example_2.ttl', format='turtle')
 
 # helper function to split URIs
 def splitURI(URI):
@@ -17,7 +17,9 @@ def splitURI(URI):
 # s->p->o ; p = { feeds, isPartOf, hasPoint }
 
 # Need to start with Target, and work our way through
-target_ent = rdflib.Namespace("https://building.com#")['target']
+# target_ent = rdflib.Namespace("https://building.com#")['target']
+target_ent = rdflib.Namespace("https://building.com#")['eqp_Ahn2Gue3']
+
 
 # loop
 # def get_children(forEnt):

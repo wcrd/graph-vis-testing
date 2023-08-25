@@ -1,99 +1,29 @@
 {
-    "name": "target",
+    "name": "eqp_Ahn2Gue3",
     "type": "entity",
     "children": [
         {
-            "uri": "https://building.com#floor_damper_1",
-            "name": "floor_damper_1",
+            "uri": "https://building.com#eqp_AeGah5ei",
+            "name": "eqp_AeGah5ei",
             "type": "entity",
             "rel": "feeds",
             "children": [
                 {
-                    "uri": "https://building.com#vav_1",
-                    "name": "vav_1",
-                    "type": "entity",
-                    "rel": "feeds",
-                    "children": [
-                        {
-                            "uri": "https://building.com#vav_1_damper",
-                            "name": "vav_1_damper",
-                            "type": "entity",
-                            "rel": "hasPart",
-                            "children": [
-                                {
-                                    "uri": "https://building.com#vav_1_pnt_1",
-                                    "name": "vav_1_pnt_1",
-                                    "type": "point",
-                                    "rel": "hasPoint",
-                                    "children": []
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "uri": "https://building.com#vav_2",
-                    "name": "vav_2",
-                    "type": "entity",
-                    "rel": "feeds",
-                    "children": [
-                        {
-                            "uri": "https://building.com#vav_2_damper",
-                            "name": "vav_2_damper",
-                            "type": "entity",
-                            "rel": "hasPart",
-                            "children": [
-                                {
-                                    "uri": "https://building.com#vav_2_pnt_1",
-                                    "name": "vav_2_pnt_1",
-                                    "type": "point",
-                                    "rel": "hasPoint",
-                                    "children": []
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "uri": "https://building.com#vav_3",
-                    "name": "vav_3",
-                    "type": "entity",
-                    "rel": "feeds",
-                    "children": [
-                        {
-                            "uri": "https://building.com#vav_3_damper",
-                            "name": "vav_3_damper",
-                            "type": "entity",
-                            "rel": "hasPart",
-                            "children": [
-                                {
-                                    "uri": "https://building.com#vav_3_pnt_1",
-                                    "name": "vav_3_pnt_1",
-                                    "type": "point",
-                                    "rel": "hasPoint",
-                                    "children": []
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "uri": "https://building.com#vav_direct",
-            "name": "vav_direct",
-            "type": "entity",
-            "rel": "feeds",
-            "children": [
-                {
-                    "uri": "https://building.com#vav_direct_damper",
-                    "name": "vav_direct_damper",
+                    "uri": "https://building.com#eqp_shahSh0K",
+                    "name": "eqp_shahSh0K",
                     "type": "entity",
                     "rel": "hasPart",
                     "children": [
                         {
-                            "uri": "https://building.com#vav_direct_pnt_1",
-                            "name": "vav_direct_pnt_1",
+                            "uri": "https://building.com#pnt_Aeph6wa3",
+                            "name": "pnt_Aeph6wa3",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_EeYuuv2a",
+                            "name": "pnt_EeYuuv2a",
                             "type": "point",
                             "rel": "hasPoint",
                             "children": []
@@ -103,15 +33,1553 @@
             ]
         },
         {
-            "uri": "https://building.com#pnt_1",
-            "name": "pnt_1",
+            "uri": "https://building.com#eqp_Aighuur1",
+            "name": "eqp_Aighuur1",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_iesh7ohN",
+                    "name": "eqp_iesh7ohN",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Quai1ohf",
+                            "name": "pnt_Quai1ohf",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_jahkai7P",
+                            "name": "pnt_jahkai7P",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Aipu7pho",
+            "name": "eqp_Aipu7pho",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_uoyoh6Ph",
+                    "name": "eqp_uoyoh6Ph",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Oph4jeig",
+                            "name": "pnt_Oph4jeig",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_za4lie2O",
+                            "name": "pnt_za4lie2O",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Av2aeT1k",
+            "name": "eqp_Av2aeT1k",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_ku8ahl9L",
+                    "name": "eqp_ku8ahl9L",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_gaiJoi7e",
+                            "name": "pnt_gaiJoi7e",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Cae9thup",
+            "name": "eqp_Cae9thup",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_pi4YaWu8",
+                    "name": "eqp_pi4YaWu8",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Eeleeg5U",
+                            "name": "pnt_Eeleeg5U",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_Pookei3h",
+                            "name": "pnt_Pookei3h",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Ceedie1N",
+            "name": "eqp_Ceedie1N",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Aaf7Aiza",
+                    "name": "eqp_Aaf7Aiza",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_nie8aePi",
+                            "name": "pnt_nie8aePi",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Fe4IeNei",
+            "name": "eqp_Fe4IeNei",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_aecai2Ii",
+                    "name": "eqp_aecai2Ii",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_pefo5Iqu",
+                            "name": "pnt_pefo5Iqu",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_pheiKo9k",
+                            "name": "pnt_pheiKo9k",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Foo5Chu7",
+            "name": "eqp_Foo5Chu7",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Nea2faye",
+                    "name": "eqp_Nea2faye",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Ahbi0Aib",
+                            "name": "pnt_Ahbi0Aib",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_leeR0eiZ",
+                            "name": "pnt_leeR0eiZ",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Hah7quae",
+            "name": "eqp_Hah7quae",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_aipha3Gu",
+                    "name": "eqp_aipha3Gu",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_aim9Jei4",
+                            "name": "pnt_aim9Jei4",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_ien4iePh",
+                            "name": "pnt_ien4iePh",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Ju8rae6z",
+            "name": "eqp_Ju8rae6z",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Ievah6go",
+                    "name": "eqp_Ievah6go",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Sah3pah2",
+                            "name": "pnt_Sah3pah2",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_ba5PaeF9",
+                            "name": "pnt_ba5PaeF9",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Mieri5si",
+            "name": "eqp_Mieri5si",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_tiS4zie8",
+                    "name": "eqp_tiS4zie8",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_aebiHoo1",
+                            "name": "pnt_aebiHoo1",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_ieThieJ3",
+                            "name": "pnt_ieThieJ3",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Ohj9Na3t",
+            "name": "eqp_Ohj9Na3t",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_zueLio5e",
+                    "name": "eqp_zueLio5e",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_It1ietau",
+                            "name": "pnt_It1ietau",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_xieBee5I",
+                            "name": "pnt_xieBee5I",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Oophael6",
+            "name": "eqp_Oophael6",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Aech7Aip",
+                    "name": "eqp_Aech7Aip",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Aic0mohh",
+                            "name": "pnt_Aic0mohh",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_ooWu8yie",
+                            "name": "pnt_ooWu8yie",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Oosh9shu",
+            "name": "eqp_Oosh9shu",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Ooph3nie",
+                    "name": "eqp_Ooph3nie",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Aodux4oo",
+                            "name": "pnt_Aodux4oo",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_VaiPhaM8",
+                            "name": "pnt_VaiPhaM8",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Phahp8qu",
+            "name": "eqp_Phahp8qu",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Bii0Su9i",
+                    "name": "eqp_Bii0Su9i",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_chie3Mao",
+                            "name": "pnt_chie3Mao",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_yoh3ohXo",
+                            "name": "pnt_yoh3ohXo",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Phia0ohc",
+            "name": "eqp_Phia0ohc",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_OhDee0po",
+                    "name": "eqp_OhDee0po",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_week1Die",
+                            "name": "pnt_week1Die",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Phu3ohN5",
+            "name": "eqp_Phu3ohN5",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_aiY3xohb",
+                    "name": "eqp_aiY3xohb",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_eebai1Ma",
+                            "name": "pnt_eebai1Ma",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_seeB9sof",
+                            "name": "pnt_seeB9sof",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Quela7ae",
+            "name": "eqp_Quela7ae",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Ig4Vaev6",
+                    "name": "eqp_Ig4Vaev6",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Ahcie5sh",
+                            "name": "pnt_Ahcie5sh",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_IbohD3je",
+                            "name": "pnt_IbohD3je",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_RahGh1ni",
+            "name": "eqp_RahGh1ni",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_eidaeP0n",
+                    "name": "eqp_eidaeP0n",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_ze6Ahjae",
+                            "name": "pnt_ze6Ahjae",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Ruhaez2f",
+            "name": "eqp_Ruhaez2f",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_cahThua1",
+                    "name": "eqp_cahThua1",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Ooch5pha",
+                            "name": "pnt_Ooch5pha",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_TooyahV7",
+            "name": "eqp_TooyahV7",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_eimei1Ur",
+                    "name": "eqp_eimei1Ur",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Oona8lie",
+                            "name": "pnt_Oona8lie",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_uhooy5Ba",
+                            "name": "pnt_uhooy5Ba",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Umeh0Sha",
+            "name": "eqp_Umeh0Sha",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_eeng6Chu",
+                    "name": "eqp_eeng6Chu",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Ip2quewa",
+                            "name": "pnt_Ip2quewa",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_eiRu4fae",
+                            "name": "pnt_eiRu4fae",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Vaenai3i",
+            "name": "eqp_Vaenai3i",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_aeC7joqu",
+                    "name": "eqp_aeC7joqu",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Quahjie5",
+                            "name": "pnt_Quahjie5",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_eS8aew1a",
+                            "name": "pnt_eS8aew1a",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Vah4dooX",
+            "name": "eqp_Vah4dooX",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Ohleepe6",
+                    "name": "eqp_Ohleepe6",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_ahJee6ei",
+                            "name": "pnt_ahJee6ei",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_eeju3Dei",
+                            "name": "pnt_eeju3Dei",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_VooChat4",
+            "name": "eqp_VooChat4",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Noodag9a",
+                    "name": "eqp_Noodag9a",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_iiCh4coh",
+                            "name": "pnt_iiCh4coh",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_WeiN5ahK",
+            "name": "eqp_WeiN5ahK",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Geebien6",
+                    "name": "eqp_Geebien6",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Chipue6w",
+                            "name": "pnt_Chipue6w",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_gaiCeth7",
+                            "name": "pnt_gaiCeth7",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_Zoosai3u",
+            "name": "eqp_Zoosai3u",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_pooX1kai",
+                    "name": "eqp_pooX1kai",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Geo5tiPh",
+                            "name": "pnt_Geo5tiPh",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_Ui3coo7i",
+                            "name": "pnt_Ui3coo7i",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_aeTh6Ier",
+            "name": "eqp_aeTh6Ier",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Veib8lah",
+                    "name": "eqp_Veib8lah",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Aechiex7",
+                            "name": "pnt_Aechiex7",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_Eu2cheer",
+                            "name": "pnt_Eu2cheer",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_aey9bi0U",
+            "name": "eqp_aey9bi0U",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_ohv4Ahph",
+                    "name": "eqp_ohv4Ahph",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Phiecho3",
+                            "name": "pnt_Phiecho3",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_gahx3ouP",
+                            "name": "pnt_gahx3ouP",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_ahfu8Iju",
+            "name": "eqp_ahfu8Iju",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Oe2rieng",
+                    "name": "eqp_Oe2rieng",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_ahfah9IS",
+                            "name": "pnt_ahfah9IS",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_de8VaaNu",
+                            "name": "pnt_de8VaaNu",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_aid9Quan",
+            "name": "eqp_aid9Quan",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Chei0phu",
+                    "name": "eqp_Chei0phu",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Ahbua0Ve",
+                            "name": "pnt_Ahbua0Ve",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_air3Omei",
+            "name": "eqp_air3Omei",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_gah9ahNg",
+                    "name": "eqp_gah9ahNg",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Phoof3ge",
+                            "name": "pnt_Phoof3ge",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_aiJei1oh",
+                            "name": "pnt_aiJei1oh",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_an0foh6O",
+            "name": "eqp_an0foh6O",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_ea7AhNee",
+                    "name": "eqp_ea7AhNee",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Wul2iBai",
+                            "name": "pnt_Wul2iBai",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_chaey2Xu",
+                            "name": "pnt_chaey2Xu",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_baa1zuPe",
+            "name": "eqp_baa1zuPe",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_asai7Eeb",
+                    "name": "eqp_asai7Eeb",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Nah0rise",
+                            "name": "pnt_Nah0rise",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_airu9ohW",
+                            "name": "pnt_airu9ohW",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_eeTh6eir",
+            "name": "eqp_eeTh6eir",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Gah5ahvo",
+                    "name": "eqp_Gah5ahvo",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_ia3aCh8a",
+                            "name": "pnt_ia3aCh8a",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_oaLo5pho",
+                            "name": "pnt_oaLo5pho",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_eecohk3O",
+            "name": "eqp_eecohk3O",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_zoosuw0I",
+                    "name": "eqp_zoosuw0I",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_aiT6aicu",
+                            "name": "pnt_aiT6aicu",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_saim6OhS",
+                            "name": "pnt_saim6OhS",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_eekohn8M",
+            "name": "eqp_eekohn8M",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Aexah9Ai",
+                    "name": "eqp_Aexah9Ai",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Osoof8Fo",
+                            "name": "pnt_Osoof8Fo",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_eiMoFae6",
+            "name": "eqp_eiMoFae6",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_EoL6chie",
+                    "name": "eqp_EoL6chie",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Aehee5ae",
+                            "name": "pnt_Aehee5ae",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_suegh7Oh",
+                            "name": "pnt_suegh7Oh",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_geu4xaB6",
+            "name": "eqp_geu4xaB6",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Heem3oa3",
+                    "name": "eqp_Heem3oa3",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_eequ2uiB",
+                            "name": "pnt_eequ2uiB",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_phies1Sh",
+                            "name": "pnt_phies1Sh",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_ieBaegh0",
+            "name": "eqp_ieBaegh0",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_fu0Chai2",
+                    "name": "eqp_fu0Chai2",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Bee5aecu",
+                            "name": "pnt_Bee5aecu",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_eep6DieD",
+                            "name": "pnt_eep6DieD",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_iesie2Oo",
+            "name": "eqp_iesie2Oo",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Feo8shoo",
+                    "name": "eqp_Feo8shoo",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Wuifoh1a",
+                            "name": "pnt_Wuifoh1a",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_wo9Iem8x",
+                            "name": "pnt_wo9Iem8x",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_kei2ahFu",
+            "name": "eqp_kei2ahFu",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_feiN3Pha",
+                    "name": "eqp_feiN3Pha",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Vahsah8e",
+                            "name": "pnt_Vahsah8e",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_leiPh1Ie",
+            "name": "eqp_leiPh1Ie",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_aiF0Shie",
+                    "name": "eqp_aiF0Shie",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Su1pefai",
+                            "name": "pnt_Su1pefai",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_eiNgaxa5",
+                            "name": "pnt_eiNgaxa5",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_ohZaed5o",
+            "name": "eqp_ohZaed5o",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_aeH4taiv",
+                    "name": "eqp_aeH4taiv",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_EbeeC4zi",
+                            "name": "pnt_EbeeC4zi",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_ohdeib0L",
+            "name": "eqp_ohdeib0L",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_aePu0eha",
+                    "name": "eqp_aePu0eha",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_biTh4cee",
+                            "name": "pnt_biTh4cee",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_ooPheed7",
+            "name": "eqp_ooPheed7",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Achu5eiG",
+                    "name": "eqp_Achu5eiG",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Ooph9oot",
+                            "name": "pnt_Ooph9oot",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_phahqu2E",
+            "name": "eqp_phahqu2E",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Ooc8Eiqu",
+                    "name": "eqp_Ooc8Eiqu",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_yieraM4E",
+                            "name": "pnt_yieraM4E",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_rahfooB1",
+            "name": "eqp_rahfooB1",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_eij9Mue3",
+                    "name": "eqp_eij9Mue3",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_iePix6th",
+                            "name": "pnt_iePix6th",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_keeJ1ahd",
+                            "name": "pnt_keeJ1ahd",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_thi7Aew4",
+            "name": "eqp_thi7Aew4",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_eChaep0e",
+                    "name": "eqp_eChaep0e",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_ieT9quai",
+                            "name": "pnt_ieT9quai",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_thipahY8",
+            "name": "eqp_thipahY8",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_diw4Feeb",
+                    "name": "eqp_diw4Feeb",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Aiwae9ca",
+                            "name": "pnt_Aiwae9ca",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_Pi1oosal",
+                            "name": "pnt_Pi1oosal",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_tuTh6ach",
+            "name": "eqp_tuTh6ach",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_ceiX0Soe",
+                    "name": "eqp_ceiX0Soe",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_phooJ6ih",
+                            "name": "pnt_phooJ6ih",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_uL4iengu",
+            "name": "eqp_uL4iengu",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Aaz7sei8",
+                    "name": "eqp_Aaz7sei8",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_moh2teeM",
+                            "name": "pnt_moh2teeM",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_ui2ooPha",
+            "name": "eqp_ui2ooPha",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_aar8aeYa",
+                    "name": "eqp_aar8aeYa",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_it5oop9F",
+                            "name": "pnt_it5oop9F",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_xitho7Ne",
+            "name": "eqp_xitho7Ne",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_ahqu1Eda",
+                    "name": "eqp_ahqu1Eda",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Wei0Ahgh",
+                            "name": "pnt_Wei0Ahgh",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_roh9Ieza",
+                            "name": "pnt_roh9Ieza",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_yo5OW6xe",
+            "name": "eqp_yo5OW6xe",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Kaiy1vee",
+                    "name": "eqp_Kaiy1vee",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_Ooya2aib",
+                            "name": "pnt_Ooya2aib",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#eqp_zahpee0E",
+            "name": "eqp_zahpee0E",
+            "type": "entity",
+            "rel": "feeds",
+            "children": [
+                {
+                    "uri": "https://building.com#eqp_Dook5rag",
+                    "name": "eqp_Dook5rag",
+                    "type": "entity",
+                    "rel": "hasPart",
+                    "children": [
+                        {
+                            "uri": "https://building.com#pnt_beXahg9a",
+                            "name": "pnt_beXahg9a",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        },
+                        {
+                            "uri": "https://building.com#pnt_leeCho7A",
+                            "name": "pnt_leeCho7A",
+                            "type": "point",
+                            "rel": "hasPoint",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uri": "https://building.com#pnt_EH8ON1ve",
+            "name": "pnt_EH8ON1ve",
             "type": "point",
             "rel": "hasPoint",
             "children": []
         },
         {
-            "uri": "https://building.com#pnt_2",
-            "name": "pnt_2",
+            "uri": "https://building.com#pnt_eeph9Mei",
+            "name": "pnt_eeph9Mei",
+            "type": "point",
+            "rel": "hasPoint",
+            "children": []
+        },
+        {
+            "uri": "https://building.com#pnt_moL0Ahz3",
+            "name": "pnt_moL0Ahz3",
+            "type": "point",
+            "rel": "hasPoint",
+            "children": []
+        },
+        {
+            "uri": "https://building.com#pnt_raeth2Be",
+            "name": "pnt_raeth2Be",
             "type": "point",
             "rel": "hasPoint",
             "children": []
