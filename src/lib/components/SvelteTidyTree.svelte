@@ -9,6 +9,7 @@
     const data = DataTidyTree
 
 
+	// SVG D3 Initialisation
 	const width = 928;
 
 	// Compute the tree height; this approach will allow the height of the
@@ -38,83 +39,7 @@
 	// Compute the adjusted height of the tree.
 	const height = x1 - x0 + dx * 2
 
-    console.debug(root)
-
-	// onMount(() => {
-	// 	const svg = d3
-    //         .select(el)
-	// 		.append('svg')
-	// 		.attr('width', width)
-	// 		.attr('height', height)
-	// 		.attr('viewBox', [-dy / 3, x0 - dx, width, height])
-	// 		.attr('style', 'max-width: 100%; height: auto; font: 10px sans-serif;');
-
-	// 	const link = svg
-	// 		.append('g')
-	// 		.attr('fill', 'none')
-	// 		.attr('stroke', '#555')
-	// 		.attr('stroke-opacity', 0.4)
-	// 		.attr('stroke-width', 1.5)
-	// 		.selectAll()
-	// 		.data(root.links())
-	// 		.join('path')
-	// 		.attr(
-	// 			'd',
-	// 			d3
-	// 				.linkHorizontal()
-	// 				.x((d) => d.y)
-	// 				.y((d) => d.x)
-	// 		);
-        
-    //     link
-    //         .attr('stroke', d => {
-    //             switch(d.target.data.rel) {
-    //                 case 'hasPoint':
-    //                     return 'green'
-    //                 case 'hasPart':
-    //                     return 'blue'
-    //                 case 'feeds':
-    //                     return 'orange'
-    //                 default:
-    //                     return '#555'
-    //             }
-    //         })
-
-	// 	const node = svg
-	// 		.append('g')
-	// 		.attr('stroke-linejoin', 'round')
-	// 		.attr('stroke-width', 3)
-	// 		.selectAll()
-	// 		.data(root.descendants())
-	// 		.join('g')
-	// 		.attr('transform', (d) => `translate(${d.y},${d.x})`);
-
-	// 	node
-    //         .filter(d => d.data.type == 'point')
-	// 		.append('circle')
-	// 		.attr('fill', (d) => (d.children ? '#555' : '#999'))
-	// 		.attr('r', d => 4);
-        
-    //     node
-    //         .filter(d => d.data.type == 'entity')
-    //         .append('rect')
-    //         .attr('x', -4)
-    //         .attr('y', -4)
-    //         .attr('width', 8)
-    //         .attr('height', 8)
-    //         .attr('fill', d => d.data.name == 'target' ? 'red' : 'black')
-
-	// 	node
-	// 		.append('text')
-	// 		.attr('dy', '0.31em')
-	// 		.attr('x', (d) => (d.children ? -7 : 6))
-	// 		.attr('text-anchor', (d) => (d.children ? 'end' : 'start'))
-	// 		.text((d) => d.data.name)
-	// 		.clone(true)
-	// 		.lower()
-	// 		.attr('stroke', 'white');
-	// });
-
+	// HELPER: Function to set path color based on relationship type (from data)
 	function pathColor(pathType){
 		switch(pathType) {
 			case 'hasPoint':
@@ -128,8 +53,6 @@
 		}
 	}
 
-	console.debug(d3, root)
-
 </script>
 
 <div class="border rounded-md my-1 py-5 flex flex-col items-center">
@@ -141,35 +64,38 @@
 			viewBox={[-dy / 3, x0 - dx, width, height]} 
 			style='max-width: 100%; height: auto; font: 10px sans-serif;'
 		>
-			<g style="stroke-width: 3; stroke-linejoin: 'round'">
-				{#each root.descendants() as d }
-					<g transform={`translate(${d.y},${d.x})`}>
-						{#if d.data.type=="point"}
-						<circle fill="#555" r=4></circle>
-						{:else if d.data.type == 'entity'}
-						<rect x=-4 y=-4 width=8 height=8 fill={d.data.name=='target' ? 'red' : 'black'}></rect>
-						{/if}
-
-						<text dy="0.31em" x={d.children ? -7 : 6} text-anchor={d.children ? 'end' : 'start'} stroke="white">{d.data.name}</text>
-						<text dy="0.31em" x={d.children ? -7 : 6} text-anchor={d.children ? 'end' : 'start'}>{d.data.name}</text>
-					</g>
-				{/each}
-			</g>
+			<!-- Links first (z-lowest) -->
 			<g fill='none' stroke='#555' stroke-opacity=0.4 stroke-width=1.5>
 				{#each root.links() as l }
-				<path d={(d3.linkHorizontal().x((l) => l.y).y((l) => l.x))} stroke={pathColor(l.target.data.rel)}></path>
+				<path d={d3.linkHorizontal().x((d) => d.y).y((d) => d.x)(l)} stroke={pathColor(l.target.data.rel)}></path>
 				{/each}
 			</g>
+			<!-- Nodes and text (z-highest) -->
+			<g style="stroke-width: 3; stroke-linejoin: 'round'">
+				{#each root.descendants() as d }
+				<g transform={`translate(${d.y},${d.x})`}>
+					{#if d.data.type=="point"}
+					<circle fill="#999" r=4></circle>
+					{:else if d.data.type == 'entity'}
+					<rect x=-4 y=-4 width=8 height=8 fill={d.data.name=='target' ? 'red' : 'black'}></rect>
+					{/if}
+
+					<text dy="0.31em" x={d.children ? -7 : 6} text-anchor={d.children ? 'end' : 'start'} stroke="white">{d.data.name}</text>
+					<text dy="0.31em" x={d.children ? -7 : 6} text-anchor={d.children ? 'end' : 'start'}>{d.data.name}</text>
+				</g>
+				{/each}
+			</g>
+			
 		</svg>
 	</div>
 
     <div id="legend" class="flex flex-row gap-x-5 mt-5">
         <div class="flex flex-row gap-x-2 items-center">
-            <span class="block h-3 w-3 rounded-full bg-yellow-500"></span>
+            <span class="block h-3 w-3 rounded-full bg-blue-500"></span>
             Has Part
         </div>
         <div class="flex flex-row gap-x-2 items-center">
-            <span class="block h-3 w-3 rounded-full bg-blue-500"></span>
+            <span class="block h-3 w-3 rounded-full bg-yellow-500"></span>
             Feeds
         </div>
         <div class="flex flex-row gap-x-2 items-center">
